@@ -9,13 +9,19 @@
 }
 
 @font-face {font-family: "Gagalin";
-  src: url("http://db.onlinewebfonts.com/t/240a7cb10b49b02c94ceddc459d385a9.eot"); /* IE9*/
-  src: url("http://db.onlinewebfonts.com/t/240a7cb10b49b02c94ceddc459d385a9.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-  url("./assets/fonts/240a7cb10b49b02c94ceddc459d385a9.woff2") format("woff2"), /* chrome firefox */
-  url("http://db.onlinewebfonts.com/t/240a7cb10b49b02c94ceddc459d385a9.woff") format("woff"), /* chrome firefox */
-  url("http://db.onlinewebfonts.com/t/240a7cb10b49b02c94ceddc459d385a9.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
-  url("http://db.onlinewebfonts.com/t/240a7cb10b49b02c94ceddc459d385a9.svg#Gagalin") format("svg"); /* iOS 4.1- */
+  src: url("./assets/fonts/240a7cb10b49b02c94ceddc459d385a9.woff2") format("woff2"), /* chrome firefox */
 }
+
+
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./assets/fonts/240a7cb10b49b02c94ceddc459d385a9.woff2') format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
 :root {
   --primary: #058ae4;
   --secondary: #fe8076;
