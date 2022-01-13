@@ -3,4 +3,4 @@
 small html,css project to donate for medics in Lebanon 
 
 -domain mentioned below is not a real domain-
-<img src="Poster.png" with="350px">
+<img src="Poster.png" with="200">
